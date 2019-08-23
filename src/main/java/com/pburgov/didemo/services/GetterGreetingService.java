@@ -2,7 +2,6 @@ package com.pburgov.didemo.services;
 
 import org.springframework.stereotype.Service;
 
-
 @Service
 public class GetterGreetingService implements GreetingService {
 

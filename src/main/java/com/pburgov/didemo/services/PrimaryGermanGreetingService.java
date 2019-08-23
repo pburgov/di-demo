@@ -1,11 +1,10 @@
 package com.pburgov.didemo.services;
 
-
 public class PrimaryGermanGreetingService implements GreetingService {
 
     private GreetingRepository greetingRepository;
 
-    public PrimaryGermanGreetingService(GreetingRepository greetingRepository) {
+    public PrimaryGermanGreetingService( GreetingRepository greetingRepository ) {
         this.greetingRepository = greetingRepository;
     }
 

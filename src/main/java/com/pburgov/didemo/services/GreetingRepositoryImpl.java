@@ -2,7 +2,6 @@ package com.pburgov.didemo.services;
 
 import org.springframework.stereotype.Component;
 
-
 @Component
 public class GreetingRepositoryImpl implements GreetingRepository {
 
@@ -13,13 +12,11 @@ public class GreetingRepositoryImpl implements GreetingRepository {
 
     @Override
     public String getSpanishGreeting() {
-        return "Servicio de Saludo Primario";
+        return "Hola - Servicio de Saludo Primario";
     }
 
     @Override
     public String getGermanGreeting() {
-
-        return "Primärer Grußdienst";
-
+        return "Hallo - Primärer Grußdienst";
     }
 }
